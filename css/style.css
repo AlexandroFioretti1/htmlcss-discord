@@ -2,15 +2,9 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    
 }
 
-
-body{
-  font:"gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
-}
 /*  region utility  */
-
 .width {
     width: calc(50% / 1);
 }
@@ -18,11 +12,10 @@ body{
 .debug {
     height: 200px;
     width: 400px;
-
 }
 
-.text-main {
 
+.text-main {
     background-color: rgb(255, 145, 101);
 }
 
@@ -31,26 +24,68 @@ body{
     background-color: rgb(6, 80, 241);
 }
 
-.header-container {
-    max-width: 50%;
-    margin: auto;
-    height: 200px;
-    text-align: center;
-    background-color: purple;
-    margin-top: 1rem;
+.intro {
+    padding: 20px;
+}
 
-    border: 1px solid;
-    border-color: yellow;
+.go-link {
+    padding: 10px;
 
 }
 
+/* / region utility */
 
+
+
+/* header */
+#app-header {
+    height: 350px;
+    width: 100%;
+    padding: 10px;
+}
+
+header {
+    background-image: url("/assets/img/jumbo.png");
+    background-color: #cccccc;
+    background-size: initial;
+}
+
+/* /header */
+
+
+/* start button */
+.button-log-in {
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 14px;
+    border: none;
+    padding: 5px;
+}
+
+.download {
+    border-radius: 24px;
+    font-size: 16px;
+    padding: 14px 28px;
+    border: none;
+}
+
+.open-browser {
+    border-radius: 24px;
+    font-size: 16px;
+    padding: 14px 28px;
+    border: none;
+}
+
+/*  /button  */
+
+
+/* container */
 .container {
     justify-content: center;
     display: flex;
     max-width: 100%;
     margin: auto;
-    padding: 30px; 
+    padding: 30px;
 }
 
 .container-white {
@@ -61,35 +96,52 @@ body{
     background-color: lightgrey;
 }
 
-/* / region utility */
-
-#app-header {
-    background-color: blue;
-    height: 270px;
-    width: 100%;
-    padding: 10px;
-
-
+.header-container {
+    max-width: 50%;
+    margin: auto;
+    height: 200px;
+    text-align: center;
+    padding: 40px;
 }
 
+.green-container {
+    margin: auto;
+    height: 400px;
+    text-align: center;
+    background-color: green;
+    margin-top: 1rem;
+    width: 72%;
+
+    border: 1px solid;
+    border-color: yellow;
+}
+/* /container */
+
+
+/* list */
 .list-header {
     list-style-type: none;
-
 }
 
 .li-inline {
     display: inline;
+    text-decoration: none;
+    list-style-type: none;
 }
 
+/* /list */
 .nav {
     display: flex;
     margin: auto;
     max-width: 70%;
     justify-content: space-between;
-    background-color: orange;
+}
 
-    border: 1px solid;
-    border-color: yellow;
+
+.link {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
 }
 
 /*  region header  macro */
@@ -110,31 +162,7 @@ body{
     max-width: 100%;
     margin: auto;
     padding: 30px;
-
     background-color: lightgrey;
-
-}
-
-/* region footer */
-
-#app-footer {
-    background-color: black;
-    padding: 12px;
-}
-
-
-.green-container {
-
-    margin: auto;
-    height: 400px;
-    text-align: center;
-    background-color: green;
-    margin-top: 1rem;
-    width: 72%;
-
-    border: 1px solid;
-    border-color: yellow;
-
 }
 
 .bottom-logo {
@@ -142,14 +170,16 @@ body{
     padding: 0.75rem;
 }
 
+/* /region main area */
 
+
+/*  region column */
 .column-container {
-
     justify-content: center;
     display: flex;
     max-width: 88%;
     margin: auto;
- 
+
 }
 
 .column-big {
@@ -160,17 +190,18 @@ body{
     height: 300px;
 }
 
-.column-small{
+.column-small {
     background-color: cyan;
     width: calc(60% / 4);
     height: 300px;
     border: 1px solid yellow;
 }
 
+/* /column */
 
+/* region footer */
 
-/* .join-discord {
-    justify-content: center;
-    display: flex;
-
- } */
+#app-footer {
+    background-color: black;
+    padding: 12px;
+}
