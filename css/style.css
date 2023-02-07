@@ -1,0 +1,176 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+body{
+  font:"gg sans","Noto Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+/*  region utility  */
+
+.width {
+    width: calc(50% / 1);
+}
+
+.debug {
+    height: 200px;
+    width: 400px;
+
+}
+
+.text-main {
+
+    background-color: rgb(255, 145, 101);
+}
+
+.img-top {
+    justify-content: center;
+    background-color: rgb(6, 80, 241);
+}
+
+.header-container {
+    max-width: 50%;
+    margin: auto;
+    height: 200px;
+    text-align: center;
+    background-color: purple;
+    margin-top: 1rem;
+
+    border: 1px solid;
+    border-color: yellow;
+
+}
+
+
+.container {
+    justify-content: center;
+    display: flex;
+    max-width: 100%;
+    margin: auto;
+    padding: 30px; 
+}
+
+.container-white {
+    background-color: white;
+}
+
+.container-grey {
+    background-color: lightgrey;
+}
+
+/* / region utility */
+
+#app-header {
+    background-color: blue;
+    height: 270px;
+    width: 100%;
+    padding: 10px;
+
+
+}
+
+.list-header {
+    list-style-type: none;
+
+}
+
+.li-inline {
+    display: inline;
+}
+
+.nav {
+    display: flex;
+    margin: auto;
+    max-width: 70%;
+    justify-content: space-between;
+    background-color: orange;
+
+    border: 1px solid;
+    border-color: yellow;
+}
+
+/*  region header  macro */
+
+
+/* region main area */
+.upper-main {
+    justify-content: center;
+    display: flex;
+    max-width: 100%;
+    margin: auto;
+    padding: 30px;
+}
+
+.green-box {
+    justify-content: center;
+    display: flex;
+    max-width: 100%;
+    margin: auto;
+    padding: 30px;
+
+    background-color: lightgrey;
+
+}
+
+/* region footer */
+
+#app-footer {
+    background-color: black;
+    padding: 12px;
+}
+
+
+.green-container {
+
+    margin: auto;
+    height: 400px;
+    text-align: center;
+    background-color: green;
+    margin-top: 1rem;
+    width: 72%;
+
+    border: 1px solid;
+    border-color: yellow;
+
+}
+
+.bottom-logo {
+    margin-top: 1rem;
+    padding: 0.75rem;
+}
+
+
+.column-container {
+
+    justify-content: center;
+    display: flex;
+    max-width: 88%;
+    margin: auto;
+ 
+}
+
+.column-big {
+    background-color: pink;
+    color: red;
+    border: 1px solid yellow;
+    width: 20%;
+    height: 300px;
+}
+
+.column-small{
+    background-color: cyan;
+    width: calc(60% / 4);
+    height: 300px;
+    border: 1px solid yellow;
+}
+
+
+
+/* .join-discord {
+    justify-content: center;
+    display: flex;
+
+ } */
