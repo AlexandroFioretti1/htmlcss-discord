@@ -2,11 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "gg sans", "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
 
 /*  region utility  */
 .width {
     width: calc(50% / 1);
+}
+
+.justify {
+    justify-content: center;
 }
 
 .debug {
@@ -35,23 +40,21 @@
 
 /* / region utility */
 
-
-
 /* header */
 #app-header {
-    height: 350px;
     width: 100%;
     padding: 10px;
 }
 
 header {
     background-image: url("/assets/img/jumbo.png");
-    background-color: #cccccc;
-    background-size: initial;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+
 }
 
 /* /header */
-
 
 /* start button */
 .button-log-in {
@@ -60,6 +63,17 @@ header {
     border-radius: 14px;
     border: none;
     padding: 5px;
+    background-color: #5865f2;
+}
+
+
+.download-mac {
+    border-radius: 24px;
+    font-size: 16px;
+    padding: 14px 28px;
+    border: none;
+    background-color: #5865f2;
+    color: white;
 }
 
 .download {
@@ -74,10 +88,20 @@ header {
     font-size: 16px;
     padding: 14px 28px;
     border: none;
+    background-color: #23272a;
+    color: white;
+}
+
+.sign-in-button {
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 14px;
+    border: none;
+    padding: 5px;
+    background-color: #5865f2;
 }
 
 /*  /button  */
-
 
 /* container */
 .container {
@@ -115,10 +139,10 @@ header {
     border: 1px solid;
     border-color: yellow;
 }
+
 /* /container */
 
-
-/* list */
+/* list header */
 .list-header {
     list-style-type: none;
 }
@@ -129,7 +153,29 @@ header {
     list-style-type: none;
 }
 
+/* list footer */
+
+.list-footer {
+    list-style-type: none;
+}
+
+.blue-item {
+    text-decoration: none;
+    list-style-type: none;
+    color: #5865f2;
+    ;
+
+}
+
+.white-inte {
+    text-decoration: none;
+    list-style-type: none;
+    color: white;
+
+}
+
 /* /list */
+
 .nav {
     display: flex;
     margin: auto;
@@ -183,18 +229,16 @@ header {
 }
 
 .column-big {
-    background-color: pink;
-    color: red;
-    border: 1px solid yellow;
+    color: white;
     width: 20%;
     height: 300px;
 }
 
 .column-small {
-    background-color: cyan;
+    color: white;
     width: calc(60% / 4);
     height: 300px;
-    border: 1px solid yellow;
+
 }
 
 /* /column */
@@ -202,6 +246,6 @@ header {
 /* region footer */
 
 #app-footer {
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.884);
     padding: 12px;
 }
